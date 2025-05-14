@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(assets/bg-image.png);
+    background-image: url(assets/bg-page.png);
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body {
     max-width: 800px;
     background-color: #F0E8C2;
     border-radius: 24px;
-    margin: 48px auto;
+    margin: 48px auto 28px;
 }
 
 main {
@@ -35,7 +35,7 @@ section + section {
     margin-top: 24px;
 }
 
-#about p + p {
+#about p + p, #preparation p + p {
     margin-top: 12px;
 }
 
@@ -51,5 +51,15 @@ h1, h2 {
 
 ul {
     padding-left: 24px;
+}
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
 }
 
